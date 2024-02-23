@@ -3,10 +3,10 @@ import LoginByGoogle from './LoginByGoogle'
 
 function Row3() {
   return (
-    <div className="grid grid-cols-1 h-96 md:grid-cols-3 ">
+    <div className="flex  h-2/4 min-w-60 flex-col md:flex-row p-4  gap-4">
     
     
-    <div className="border h-full p-4 m-4 rounded-lg">
+    <div className="  border  p-4  rounded-lg">
       <h2 className="text-blue-900 text-2xl font-bold">Become Volunteer</h2>
       <p>
         MMN is an organisation for members, by members - run on support of our volunteer members.
@@ -16,28 +16,38 @@ function Row3() {
     </div>
 
 
-<div className="border h-full text-2xl p-4 m-4 rounded-lg">
+<div className="  border  text-2xl p-4  rounded-lg">
       <h2 className="text-blue-950 font-bold">Already Member?</h2>
-      <p>
+      
         <LoginByGoogle/>
+        <div className='flex justify-center items-center'>
+            <p className='font-bold'>or</p>
+        </div>
         Member id
-        Enter member ID
+<input className='border p-3 rounded-lg' placeholder='enter member ID' / >
         Password
-        Enter member ID
-        OR
+        
+<input className='border p-3 rounded-lg' placeholder='enter member ID' / >
+        <button className='bg-blue-950 m-3 p-4 rounded-md rounded-md text-white'>
         Login
-      </p>
+        </button>
+        
+       
     </div>
 
 
- <div className="border h-full p-4 m-4 rounded-lg">
-      <h2 className="text-blue-950 text-2xl font-bold">Become a Member</h2>
+ <div className="  border bg-orange-600 text-white  p-4  rounded-lg">
+      <h2 className="text-white  mb-3 text-2xl font-bold">Become a Member</h2>
       <p>
-        Price: kr 150 per member
-        MMN Membership goes from January to December of each year. Do check our
-        membership benefits and join us.
+        Price: kr <span className='border p-2 bg-white text-orange-600 rounded-md'>150 per</span> member
       </p>
-      <button className="bg-blue-500 text-white py-2 px-4 mt-4">Become a member</button>
+
+      <p className=''>
+      MMN Membership goes from January to December of each year. Do check our
+        membership benefits and join us.
+
+      </p>
+      <button className="bg-gray-100 text-black rounded-md text-white py-1 px-4 mt-4">Become a member</button>
     </div>
 
 

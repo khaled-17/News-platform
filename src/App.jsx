@@ -14,15 +14,13 @@ function App() {
   return (
   <>
   <Header/>
-  <main className='h-screen'>
-
+ 
 <Row1/>
 <Row2/>
 <Row3/>
 
-  </main>
-
-  {/* <Footer/> */}
+ 
+  <Footer/>
   </>
   
   )

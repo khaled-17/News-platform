@@ -8,7 +8,7 @@ function Row1() {
           
           
         <div className=" md:h-[32rem]   bg-red-600  w-full md:w-1/2 sm:h-[22rem] lg:w-1/2  flex items-center justify-center">
-                <img className=' h-auto rounded-lg' src={webele} alt="" srcset="" />
+                <img className=' h-auto rounded-lg' src={webele} alt=""  />
             </div>
 
 

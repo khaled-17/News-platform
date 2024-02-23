@@ -1,6 +1,6 @@
 import React,{useState,useEffect} from 'react'
 
-// import { FcGoogle } from "react-icons/fc";
+import { FcGoogle } from "react-icons/fc";
 
 //  import { useNavigate } from 'react-router-dom';
 
@@ -33,7 +33,7 @@ const LoginByGoogle = (props) => {
 
 
   return (
-          <div className="shadow-2xl">
+          <div className="hover:shadow-2xl border">
             <button
               type="button"
                style={{
@@ -51,7 +51,7 @@ const LoginByGoogle = (props) => {
               }}
 
              >
-              {/* <FcGoogle style={{marginRight:'14px'}} /> */}
+              <FcGoogle style={{marginRight:'14px'}} />
               Sign in with Google
             </button>
           </div>
